@@ -32,7 +32,7 @@ const Category = ({ slug, blogs, projectId, dataset }) => {
     return (
         <div>
             <Head>
-                <title>Create Next App</title>
+                <title>Bm_Blogs | {slug}</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

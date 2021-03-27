@@ -32,7 +32,7 @@ export default function Home({ projectId, dataset, blogs }) {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Bm_Blogs | Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

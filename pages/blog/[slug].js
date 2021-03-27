@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import BlockContent from '@sanity/block-content-to-react';
 import imageUrlBuilder from '@sanity/image-url';
 import { useEffect, useState } from 'react';
@@ -32,6 +33,10 @@ const Slug = ({ projectId, dataset, body, title, image }) => {
 
     return (
         <>
+            <Head>
+                <title>Bm_Blogs | {title}</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <Navbar />
             <div>
                 <h1 className={styles.title}>{title}</h1>
