@@ -1,0 +1,31 @@
+
+.navbar{
+    display: flex;
+    /* margin:  0 2rem; */
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: .7rem;
+}
+
+.item_list{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_item{
+    list-style: none;
+}
+
+.list_item:hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 800px){
+    .navbar{
+        /* margin: 0; */
+    }
+}

@@ -1,0 +1,52 @@
+
+.subTitle{
+  margin-left: 10px;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+
+.deck{
+  margin-top: 0rem;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.card_in{
+}
+
+.card{
+  /* position: relative; */
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(161, 222, 226);
+  border-radius: 10px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card img{
+  /* position: relative; */
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card h3{
+  /* position: absolute; */
+  bottom: 0;
+}
+
+
+@media only screen and (min-width: 600px){
+  .deck{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 1080px){
+  .deck{
+    grid-template-columns: auto auto auto;
+  }
+}
