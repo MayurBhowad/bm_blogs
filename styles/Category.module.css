@@ -10,9 +10,6 @@
     grid-template-columns: auto;
   }
   
-  .card_in{
-  }
-  
   .card{
     /* position: relative; */
     padding: 10px;
