@@ -21,6 +21,7 @@ const serializers = {
 
 const Slug = ({ projectId, dataset, body, title, image }) => {
     const [imageUrl, setImageUrl] = useState('');
+    // console.log(title);
 
     useEffect(() => {
         const imageBuilder = imageUrlBuilder({
